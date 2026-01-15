@@ -1,0 +1,46 @@
+# All frequent files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzz
+*.pywzz
+*.pyzzz
+*.pywzzz
+*.pyzzzz
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# macOS Finder settings
+.fseventsd
+.com.apple.timemachine.donotpresent
+.VolumeIcon.icns
+
+# macOS resource fork files
+*.AppleDouble
+
+# macOS Quick Look cache
+*.qlgenerator
+
+# macOS "Saved Application State"
+**/Saved Application State/
+
+# Mac system folder (rare cases)
+__MACOSX/
+
+.env
