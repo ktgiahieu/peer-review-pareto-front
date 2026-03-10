@@ -1,0 +1,171 @@
+{
+  "ICLR2022": {
+    "venue_id": "ICLR.cc/2022/Conference",
+    "api_version": "v1",
+    "atomic_score_fields": [
+      "correctness",
+      "details_of_ethics_concerns",
+      "empirical_novelty_and_significance",
+      "technical_novelty_and_significance"
+    ],
+    "overall_score_fields": [
+      "recommendation"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "rating 1-10 (1=Trivial to 10=Top 5%), confidence 1-5"
+  },
+  "ICLR2023": {
+    "venue_id": "ICLR.cc/2023/Conference",
+    "api_version": "v1",
+    "atomic_score_fields": [
+      "correctness",
+      "empirical_novelty_and_significance",
+      "technical_novelty_and_significance"
+    ],
+    "overall_score_fields": [
+      "recommendation"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "rating 1-10, confidence 1-5"
+  },
+  "ICLR2024": {
+    "venue_id": "ICLR.cc/2024/Conference",
+    "api_version": "v2",
+    "atomic_score_fields": [
+      "contribution",
+      "presentation",
+      "soundness"
+    ],
+    "overall_score_fields": [
+      "rating"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "soundness/presentation/contribution 1-5, rating 1-10, confidence 1-5"
+  },
+  "ICLR2025": {
+    "venue_id": "ICLR.cc/2025/Conference",
+    "api_version": "v2",
+    "atomic_score_fields": [
+      "contribution",
+      "presentation",
+      "questions",
+      "soundness"
+    ],
+    "overall_score_fields": [
+      "rating"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "soundness/presentation/contribution 1-5, rating 1-10, confidence 1-5"
+  },
+  "ICLR2026": {
+    "venue_id": "ICLR.cc/2026/Conference",
+    "api_version": "v2",
+    "atomic_score_fields": [
+      "contribution",
+      "presentation",
+      "questions",
+      "reviewer_scores",
+      "soundness",
+      "strengths",
+      "weaknesses"
+    ],
+    "overall_score_fields": [
+      "rating"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "soundness/presentation/contribution 1-5, rating 1-10, confidence 1-5"
+  },
+  "NeurIPS2021": {
+    "venue_id": "NeurIPS.cc/2021/Conference",
+    "api_version": "v1",
+    "atomic_score_fields": [
+      "ethical_concerns",
+      "limitations_and_societal_impact"
+    ],
+    "overall_score_fields": [
+      "rating"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "rating 1-10 (or venue-specific), confidence 1-5"
+  },
+  "NeurIPS2022": {
+    "venue_id": "NeurIPS.cc/2022/Conference",
+    "api_version": "v1",
+    "atomic_score_fields": [],
+    "overall_score_fields": [
+      "rating"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "rating 1-10, confidence 1-5"
+  },
+  "NeurIPS2023": {
+    "venue_id": "NeurIPS.cc/2023/Conference",
+    "api_version": "v1",
+    "atomic_score_fields": [],
+    "overall_score_fields": [],
+    "confidence_fields": [],
+    "scale_notes": "rating 1-10, confidence 1-5"
+  },
+  "NeurIPS2024": {
+    "venue_id": "NeurIPS.cc/2024/Conference",
+    "api_version": "v2",
+    "atomic_score_fields": [
+      "contribution",
+      "presentation",
+      "questions",
+      "soundness"
+    ],
+    "overall_score_fields": [
+      "rating"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "rating 1-10, confidence 1-5"
+  },
+  "NeurIPS2025": {
+    "venue_id": "NeurIPS.cc/2025/Conference",
+    "api_version": "v2",
+    "atomic_score_fields": [
+      "clarity",
+      "final_justification",
+      "originality",
+      "quality",
+      "significance"
+    ],
+    "overall_score_fields": [
+      "rating"
+    ],
+    "confidence_fields": [
+      "confidence"
+    ],
+    "scale_notes": "rating 1-10, confidence 1-5"
+  },
+  "ICML2025": {
+    "venue_id": "ICML.cc/2025/Conference",
+    "api_version": "v2",
+    "atomic_score_fields": [
+      "other_comments_or_suggestions",
+      "questions_for_authors"
+    ],
+    "overall_score_fields": [
+      "overall_recommendation"
+    ],
+    "confidence_fields": [],
+    "scale_notes": "overall rating only (scale TBD from form)"
+  }
+}
